@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    /*colors*/
+    --color-primary: #FFAEED;
+    --color-secondary: #FFFA8E;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+
+    /*units*/
+    --unit-smaller: 20px;
+    --unit-small: 40px;
+    --unit-medium: 60px;
+    --unit-large: 80px;
+    --unit-larger: 120px;
+
+    /*fonts*/
+   --font-headline: "PT Serif";
+   --font-text: "Roboto";
+
+
+}
