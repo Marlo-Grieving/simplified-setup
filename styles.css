@@ -10,11 +10,11 @@
     --color-white: #FFFFFF;
 
     /*units*/
-    --unit-smaller: 20px;
-    --unit-small: 40px;
-    --unit-medium: 60px;
-    --unit-large: 80px;
-    --unit-larger: 120px;
+    --unit-smaller: 10px;
+    --unit-small: 20px;
+    --unit-medium: 40px;
+    --unit-large: 60px;
+    --unit-larger: 80px;
 
     /*fonts*/
    --font-headline: "PT Serif";
