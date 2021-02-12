@@ -50,6 +50,7 @@
   .active {
       background-color: var(--color-primary);
   }
+
   
   /* responsivness */
   @media screen and (max-width: 500px) {
@@ -58,4 +59,40 @@
       display: block;
       text-align: left;
     }
+  }
+
+  /* Body Columns */
+  .column {
+      float: left;
+      padding: var(--unit-small);
+  }
+
+  .column.gallery {
+      width: 25%;
+  }
+
+  .column.text {
+      width: 50%;
+  }
+
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  /* Responsivness Columns */
+  @media screen and (max-width: 600px) {
+      .column.gallery, .column.text {
+          width: 100%;
+      }
+  }
+
+  /* Text */
+  .text {
+      font-family: var(--font-text);
+  }
+
+  .headline {
+      font-family: var(--font-headline);
   }
