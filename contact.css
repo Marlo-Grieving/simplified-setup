@@ -1,0 +1,7 @@
+.contact {
+    margin-top: var(--unit-medium);
+    margin-bottom: var(--unit-medium);
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
