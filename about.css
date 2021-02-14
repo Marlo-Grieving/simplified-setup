@@ -1,0 +1,120 @@
+/* Image */
+.container {
+    float: left;
+    position: relative;
+    width: 30%;
+    margin: var(--unit-medium);
+}
+
+.photome {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: var(--color-secondary);
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.overlaytext {
+    color: var(--color-black);
+    font-family: var(--font-headline);
+    font-size: var(--unit-small);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* Text */
+.aboutme {
+    float: left;
+    width: 56%;
+    margin: var(--unit-medium);
+    margin-right: var(--unit-larger);
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Social Media etc*/
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: var(--unit-smaller);
+}
+
+.sociallinks {
+    display: flex;
+}
+
+.sociallinks > .social {
+    margin: var(--unit-smaller);
+    padding: var(--unit-small);
+    font-size: var(--unit-small);
+    font-family: var(--font-text);
+  }
+
+.sociallinks > .social > .soc:link, .soc:visited {
+    border-radius: 25px;
+    background-color: var(--color-secondary);
+    color: var(--color-black);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.sociallinks > .social > .soc:hover, .soc:active {
+    background-color: var(--color-primary);
+}
+
+/* CV */
+.vita {
+    margin-top: var(--unit-medium);
+    margin-bottom: var(--unit-medium);
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .headline-vita {
+      margin-bottom: var(--unit-medium);
+  }
+
+  .subheadline {
+      font-family: var(--font-headline);
+      font-size: var(--unit-small);
+      margin-top: var(--unit-smaller);
+      margin-bottom: var(--unit-smaller);
+  }
+
+  .dates-vita {
+      float: left;
+      width: 50%;
+      position: relative;
+      margin-bottom: var(--unit-medium);
+  }
+
+  .information-vita {
+      position: relative;
+      float: left;
+      width: 50%;
+      margin-bottom: var(--unit-medium);
+  }

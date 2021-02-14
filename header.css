@@ -7,8 +7,8 @@
 /* Header */
 .header {
     overflow: hidden;
-    background-color: var(--color-white);
-    padding: var(--unit-small) var(--unit-smaller);
+    background-color: var(--color-background);
+    padding: var(--unit-smaller) var(--unit-larger);
   }
   
   /* Header Links */
@@ -27,8 +27,8 @@
   /* Navigation Style */
   ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: var(--unit-smaller);
+    padding: var(--unit-medium);
   }
   
   /* Logo */
@@ -36,7 +36,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 50%;
   }
   
   /* Background Change */
@@ -60,10 +60,22 @@
     }
   }
 
+/*Body*/
+  .news {
+    margin-top: var(--unit-medium);
+    margin-bottom: var(--unit-medium);
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
 
   /* Text */
   .text {
       font-family: var(--font-text);
+      margin-block-start: var(--unit-smaller);
+      margin-block-end: var(--unit-smaller);
+      text-align: justify;
   }
 
   .headline {
@@ -72,12 +84,23 @@
 
   /* Footer */
   .footer {
+    width: 100%;
     text-align: left;
     background-color: var(--color-primary);
   }
 
+
   .footernav {
     display: flex;
+  }
+
+  /* responsivness */
+  @media screen and (max-width: 500px) {
+    .footernav {
+      float: none;
+      display: block;
+      text-align: left;
+    }
   }
 
   .footernav > li {
@@ -88,6 +111,7 @@
   }
 
   .footernav > li > a:link, a:visited {
+    border-radius: 25px;
     background-color: var(--color-primary);
     color: var(--color-black);
     border: 2px var(--color-black);

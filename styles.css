@@ -1,4 +1,6 @@
 @import url("header.css");
+@import url("about.css");
+@import url("work.css");
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -8,6 +10,7 @@
     --color-secondary: #FFFCC0;
     --color-black: #000000;
     --color-white: #FFFFFF;
+    --color-background: #FFE7FA;
 
     /*units*/
     --unit-smaller: 10px;
@@ -15,6 +18,7 @@
     --unit-medium: 40px;
     --unit-large: 60px;
     --unit-larger: 80px;
+    --unit-xl: 300px;
 
     /*fonts*/
    --font-headline: "PT Serif";
