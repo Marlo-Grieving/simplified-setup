@@ -4,14 +4,17 @@
     padding: 0;
 }
 
-/* Header */
-.header {
+
+/* Header (genrell) */
+
+  .header {
     overflow: hidden;
     background-color: var(--color-background);
     padding: var(--unit-smaller) var(--unit-larger);
   }
   
   /* Header Links */
+
   .header a {
     float: left;
     color: var(--color-black);
@@ -24,14 +27,18 @@
     border-radius: 4px;
   }
 
+
   /* Navigation Style */
+
   ul {
     list-style-type: none;
     margin: var(--unit-smaller);
     padding: var(--unit-medium);
   }
   
+
   /* Logo */
+
   .logo {
     display: block;
     margin-left: auto;
@@ -39,19 +46,24 @@
     width: 50%;
   }
   
+
   /* Background Change */
+
   .header a:hover {
     background-color: var(--color-secondary);
     color: var(--color-black);
   }
 
+
   /* Active / Current Nav */
+
   .active {
-      background-color: var(--color-primary);
+    background-color: var(--color-primary);
   }
 
   
   /* responsivness */
+
   @media screen and (max-width: 500px) {
     .header a {
       float: none;
@@ -60,7 +72,12 @@
     }
   }
 
+
+
 /*Body*/
+
+  /* Position Text*/
+
   .news {
     margin-top: var(--unit-medium);
     margin-bottom: var(--unit-medium);
@@ -70,31 +87,34 @@
   }
 
 
-  /* Text */
+  /* Text (generell) */
+
   .text {
-      font-family: var(--font-text);
-      margin-block-start: var(--unit-smaller);
-      margin-block-end: var(--unit-smaller);
-      text-align: justify;
+    font-family: var(--font-text);
+    margin-block-start: var(--unit-smaller);
+    margin-block-end: var(--unit-smaller);
+    text-align: justify;
   }
 
   .headline {
-      font-family: var(--font-headline);
+    font-family: var(--font-headline);
   }
 
-  /* Footer */
+
+/* Footer (generell) */
+
   .footer {
     width: 100%;
     text-align: left;
     background-color: var(--color-primary);
   }
 
-
   .footernav {
     display: flex;
   }
 
   /* responsivness */
+  
   @media screen and (max-width: 500px) {
     .footernav {
       float: none;

@@ -1,4 +1,5 @@
-/* Image */
+/* Bild */
+
 .container {
     float: left;
     position: relative;
@@ -40,7 +41,9 @@
     -ms-transform: translate(-50%, -50%);
 }
 
+
 /* Text */
+
 .aboutme {
     float: left;
     width: 56%;
@@ -51,6 +54,7 @@
 .clearfix {
     clear: both;
 }
+
 
 /* Social Media etc*/
 
@@ -69,7 +73,7 @@
     padding: var(--unit-small);
     font-size: var(--unit-small);
     font-family: var(--font-text);
-  }
+}
 
 .sociallinks > .social > .soc:link, .soc:visited {
     border-radius: 25px;
@@ -85,36 +89,40 @@
     background-color: var(--color-primary);
 }
 
+
 /* CV */
+
 .vita {
     margin-top: var(--unit-medium);
     margin-bottom: var(--unit-medium);
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-  }
+}
 
-  .headline-vita {
+    /* Infos CV */
+
+    .headline-vita {
       margin-bottom: var(--unit-medium);
-  }
+    }
 
-  .subheadline {
+    .subheadline {
       font-family: var(--font-headline);
       font-size: var(--unit-small);
       margin-top: var(--unit-smaller);
       margin-bottom: var(--unit-smaller);
-  }
+    }
 
-  .dates-vita {
+    .dates-vita {
       float: left;
       width: 50%;
       position: relative;
       margin-bottom: var(--unit-medium);
-  }
+    }
 
-  .information-vita {
+    .information-vita {
       position: relative;
       float: left;
       width: 50%;
       margin-bottom: var(--unit-medium);
-  }
+    }

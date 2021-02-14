@@ -1,9 +1,14 @@
-@import url("header.css");
+/* Imports */
+
+@import url("home.css");
 @import url("about.css");
 @import url("work.css");
 @import url("contact.css");
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* Tokens */
 
 :root {
     /*colors*/
@@ -24,6 +29,4 @@
     /*fonts*/
    --font-headline: "PT Serif";
    --font-text: "Roboto";
-
-
 }
